@@ -1,0 +1,4 @@
+#mainPane{
+	-fx-background-image: url('../image/main_background.jpg');
+	-fx-background-repeat: stretch
+}
