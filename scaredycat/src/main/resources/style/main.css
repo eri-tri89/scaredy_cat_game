@@ -1,4 +1,9 @@
 #mainPane{
 	-fx-background-image: url('../image/main_background.jpg');
-	-fx-background-repeat: stretch
+	-fx-background-repeat: stretch;
+	-fx-background-size: cover;
+}
+
+label{
+	-fx-text-fill:white;
 }

@@ -11,7 +11,7 @@ public final class App extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		AnchorPane root = FXMLLoader.load(getClass().getClassLoader().getResource("gui/Main.fxml"));
-		Scene scene = new Scene(root, root.getHeight(), root.getWidth());
+		Scene scene = new Scene(root, 600, 400);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}

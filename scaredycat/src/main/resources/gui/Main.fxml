@@ -5,13 +5,14 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane id="mainPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainPane" stylesheets="@../style/main.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Pane id="mainPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../style/main.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <AnchorPane prefHeight="400.0" prefWidth="600.0">
                <children>
-                  <fx:include source="StartMenu.fxml" />
+                  <fx:include source="start/StartMenu.fxml" />
                </children>
             </AnchorPane>
-         </children></Pane>
+         </children>
+         </Pane>
    </children>
 </AnchorPane>
