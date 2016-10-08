@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="21.0" layoutY="366.0" prefHeight="200.0" prefWidth="159.0">
+               <children>
+                  <ImageView fitHeight="201.0" fitWidth="159.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/card/card-back.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="159.0" layoutX="25.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/player_board/bird-cage.png" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" layoutX="12.0" layoutY="4.0" prefHeight="32.0" prefWidth="178.0" spacing="20.0">
+               <children>
+                  <Label text="Score" />
+                  <Label text="0 points" />
+               </children>
+            </HBox>
+            <Label layoutX="107.0" layoutY="129.0" text="0" textFill="WHITE" />
+            <Button layoutX="69.0" layoutY="323.0" mnemonicParsing="false" text="Get Card" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
