@@ -25,6 +25,11 @@ public class Card {
 	public CardType getCardType() {
 		return cardType;
 	}
+
+	@Override
+	public String toString() {
+		return "Card [name = " + name + ", cardImage = " + cardImage + ", cardType = " + cardType.getName() + "]";
+	}
 	
 	
 
