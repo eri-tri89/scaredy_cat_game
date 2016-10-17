@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	 					http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                   		http://www.springframework.org/schema/util	http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<!-- <bean id="deck" class="se.erikperez.scaredycat.model.Deck"
+		autowire="constructor">
+		<constructor-arg>
+			<list>
+				<value>
+					<bean id="birdCard2" />
+				</value>
+			</list>
+		</constructor-arg>
+	</bean>  -->
+	
+	<!-- TODO: add the list of cards to the Deck Bean -->
+	
+	<bean id="birdCard2" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_2</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard3" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_3</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard4" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_4</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard5" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_5</value>
+		</constructor-arg>
+	</bean>
+	<bean id="birdCard6" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_6</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard7" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_7</value>
+		</constructor-arg>
+	</bean>
+	<bean id="birdCard8" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_8</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard9" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_9</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard10" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_10</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="birdCard11" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_11</value>
+		</constructor-arg>
+	</bean>
+	<bean id="birdCard12" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>BIRD_12</value>
+		</constructor-arg>
+	</bean>
+	<bean id="catCard1" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>CAT_1</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="catCard2" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>CAT_2</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="catCard3" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>CAT_3</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="scarecrowCard1" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART1</value>
+		</constructor-arg>
+	</bean>
+	<bean id="scarecrowCard2" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART2</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="scarecrowCard3" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART3</value>
+		</constructor-arg>
+	</bean>
+	<bean id="scarecrowCard4" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART4</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="scarecrowCard5" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART5</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="scarecrowCard6" class="se.erikperez.scaredycat.model.Card"
+		autowire="constructor">
+		<constructor-arg>
+			<value>SCARECROW_PART6</value>
+		</constructor-arg>
+	</bean>
+
+
+
+
+</beans>
