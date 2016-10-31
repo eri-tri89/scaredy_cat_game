@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-	 					http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-                   		http://www.springframework.org/schema/util	http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                   		http://www.springframework.org/schema/util	http://www.springframework.org/schema/util/spring-util-3.0.xsd"
+    xmlns:context="http://www.springframework.org/schema/context">
 
-	<!-- <bean id="deck" class="se.erikperez.scaredycat.model.Deck"
-		autowire="constructor">
-		<constructor-arg>
-			<list>
-				<value>
-					<bean id="birdCard2" />
-				</value>
-			</list>
-		</constructor-arg>
-	</bean>  -->
-	
+	<bean id="deck" class="se.erikperez.scaredycat.model.Deck">
+	<property name="cardContainer">
+		<list value-type="se.erikperez.scaredycat.model.Card">
+				<ref bean="birdCard2" />
+				<ref bean="birdCard3" />
+				<ref bean="birdCard4" />
+				<ref bean="birdCard5" />
+				<ref bean="birdCard6" />
+				<ref bean="birdCard7" />
+				<ref bean="birdCard8" />
+				<ref bean="birdCard9" />
+				<ref bean="birdCard10" />
+				<ref bean="birdCard11" />
+				<ref bean="birdCard12" />
+				<ref bean="catCard1" />
+				<ref bean="catCard2" />
+				<ref bean="catCard3" />
+				<ref bean="scarecrowCard1" />
+				<ref bean="scarecrowCard2" />
+				<ref bean="scarecrowCard3" />
+				<ref bean="scarecrowCard4" />
+				<ref bean="scarecrowCard5" />
+				<ref bean="scarecrowCard6" />
+		</list>
+	</property>
+</bean>
+
 	<!-- TODO: add the list of cards to the Deck Bean -->
 	
 	<bean id="birdCard2" class="se.erikperez.scaredycat.model.Card"
@@ -151,8 +167,4 @@
 			<value>SCARECROW_PART6</value>
 		</constructor-arg>
 	</bean>
-
-
-
-
 </beans>
