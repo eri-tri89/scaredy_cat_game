@@ -6,6 +6,7 @@ import javafx.util.Duration;
 
 public class AnimationGenerator {
 
+	//comment to change here
 	public static void doFadeAnimation(Node node) {
 		FadeTransition ft = new FadeTransition(Duration.millis(1000));
 		ft.setNode(node);
